@@ -98,8 +98,8 @@ Tasarım Vivado Simulator üzerinde hem dalga şekli seviyesinde hem de otomatik
 
 ## Donanım Doğrulaması (FPGA Demo) / Hardware Verification
 
-**[TR]** Proje **Digilent Basys 3 (Artix-7)** geliştirme kartına yüklenmiş ve bilgisayar üzerinden **HTerm** seri port programı ile 115200 baud hızında canlı olarak test edilmiştir. HTerm üzerinden gönderilen 4 baytlık paketler ile RAM'e yazma yapılmış ve okuma komutu sonucunda doğru verilerin geri geldiği kart üzerinde gözlemlenmiştir.  
-**[EN]** Programmed onto the **Digilent Basys 3 (Artix-7)** FPGA board and verified in real time using the **HTerm** terminal at 115200 baud. 4-byte command frames write data into BRAM, and subsequent read commands return the correct 16-bit words back to the terminal.
+**[TR]** Proje **Digilent Basys 3 (Artix-7)** geliştirme kartına yüklenmiş ve bilgisayar üzerinden **HTerm** seri port programı ile 9600 baud hızında canlı olarak test edilmiştir. HTerm üzerinden gönderilen 4 baytlık paketler ile RAM'e yazma yapılmış ve okuma komutu sonucunda doğru verilerin geri geldiği kart üzerinde gözlemlenmiştir.  
+**[EN]** Programmed onto the **Digilent Basys 3 (Artix-7)** FPGA board and verified in real time using the **HTerm** terminal at 9600 baud. 4-byte command frames write data into BRAM, and subsequent read commands return the correct 16-bit words back to the terminal.
 
 [uart-bram.webm](https://github.com/user-attachments/assets/424191e6-968a-46b7-83bf-2ff9ec8618cf)
 
